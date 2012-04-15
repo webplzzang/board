@@ -1,0 +1,87 @@
+/*base font*/
+body{font-size:12px; font-family:"Arial",±¼¸²; color:#666666; line-height:140%; background-repeat: repeat-x;}
+td{font-size:12px; font-family:"Arial",±¼¸²; color:#666666; line-height:140%;}
+select{font-size:11px; font-family:"verdana"; color:#2C2C2C;}
+input{font-size:11px; font-family:"verdana"; color:#2C2C2C;}
+
+/*base link*/
+a {FONT-FAMILY: "Arial",±¼¸²; FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none}
+a:hover {FONT-FAMILY: "Arial",±¼¸²; FONT-SIZE: 12px; COLOR: #4D82A2; TEXT-DECORATION:none}
+
+/* main */
+.txt_main      { color:#647CBE; font-weight:bold; font-family: ±¼¸², verdana; }
+.txt_sub_main  { color:#CB689E; }
+.txt_sub { color:#5EACB8; }
+.notice  { color:#2092B6; }
+
+.box { background-color:silver; font-size:9pt;border:#818181 1px solid;}
+
+.progressWrapper {
+	width: 357px;
+	overflow: hidden;
+}
+
+.progressContainer {
+	margin: 5px;
+	padding: 4px;
+	border: solid 1px #E8E8E8;
+	background-color: #F7F7F7;
+	overflow: hidden;
+}
+
+progressName {
+	font-size: 8pt;
+	font-weight: 700;
+	color: #555;
+	width: 323px;
+	height: 14px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 2px;
+	background-color: blue;
+	margin-top: 2px;
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	margin-top: 2px;
+	width: 337px;
+	font-size: 7pt;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}
+
+a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-image: url(../images/cancelbutton.gif);
+	background-repeat: no-repeat;
+	background-position: -14px 0px;
+	float: right;
+}
+
+a.progressCancel:hover {
+	background-position: 0px 0px;
+}

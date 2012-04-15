@@ -1,0 +1,1 @@
+<?=$parameter['pt']?>,<?=$parameter['root']?>,<?=$parameter['add_path']?>,<?=$parameter['add_convert']?>,<?=$parameter['add_original']?>
